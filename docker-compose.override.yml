@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  neo4jworkerindotnet:
+  webapi:
     environment:
-      - DOTNET_ENVIRONMENT=Development
-    volumes:
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

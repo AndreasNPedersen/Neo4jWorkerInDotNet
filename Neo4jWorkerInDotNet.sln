@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo4jWorkerInDotNet", "Neo4jWorkerInDotNet\Neo4jWorkerInDotNet.csproj", "{2B73D6FE-BE9A-4880-8D21-0729D221E569}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{5F4FC494-566A-4367-971F-05C0882543DC}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9C526FF7-5DA0-44BD-8BFE-B93EB0C03D8B}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{241A0866-1A6E-4BD9-BE5D-E4015D3B6635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2B73D6FE-BE9A-4880-8D21-0729D221E569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B73D6FE-BE9A-4880-8D21-0729D221E569}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B73D6FE-BE9A-4880-8D21-0729D221E569}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B73D6FE-BE9A-4880-8D21-0729D221E569}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C526FF7-5DA0-44BD-8BFE-B93EB0C03D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C526FF7-5DA0-44BD-8BFE-B93EB0C03D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C526FF7-5DA0-44BD-8BFE-B93EB0C03D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C526FF7-5DA0-44BD-8BFE-B93EB0C03D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4FC494-566A-4367-971F-05C0882543DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4FC494-566A-4367-971F-05C0882543DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4FC494-566A-4367-971F-05C0882543DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4FC494-566A-4367-971F-05C0882543DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241A0866-1A6E-4BD9-BE5D-E4015D3B6635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241A0866-1A6E-4BD9-BE5D-E4015D3B6635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241A0866-1A6E-4BD9-BE5D-E4015D3B6635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241A0866-1A6E-4BD9-BE5D-E4015D3B6635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

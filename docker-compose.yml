@@ -1,18 +1,18 @@
 version: '3.4'
 
 services:
-  neo4jworkerindotnet:
-    image: ${DOCKER_REGISTRY-}neo4jworkerindotnet
+  webapi:
+    image: ${DOCKER_REGISTRY-}webapi
     build:
       context: .
-      dockerfile: Neo4jWorkerInDotNet/Dockerfile
+      dockerfile: WebApi/Dockerfile
+    depends_on:
+    - graph
 
-  graphdb:
+  graph:
     image: neo4j
     ports:
-    - 7474:7474
+    - 7474:4747
     - 7687:7687
     environment:
     - NEO4J_AUTH=neo4j/password
-
-
